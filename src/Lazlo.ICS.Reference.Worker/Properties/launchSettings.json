@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "Lazlo.ICS.Reference.Worker": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "PrivateKeyUri": "c:\\temp\\private-signing-key.pem",
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "environmentVariables": {
+        "PrivateKeyUri": "c:\\temp\\private-signing-key.pem",
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Lazlo.ICS.Reference.Worker-9239f4e5-4af2-41bd-aa26-4725b39162c3</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.6.1" />
+    <PackageReference Include="Lazlo.Gaming.SDK.Events" Version="2.1.71-preview" />
+    <PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.21.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.AzureAppConfiguration" Version="5.3.0-preview" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <PackageReference Include="ThreeTwoSix.SDK.Cryptography.Helpers" Version="4.5.99" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lazlo.ICS.Reference.Aggregation\Lazlo.ICS.Reference.Aggregation.csproj" />
+  </ItemGroup>
+</Project>
