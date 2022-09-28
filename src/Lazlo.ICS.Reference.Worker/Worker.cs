@@ -1,5 +1,7 @@
 using Azure.Messaging.EventHubs;
 using Microsoft.ApplicationInsights;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using ThreeTwoSix.SDK.Messaging.Abstractions;
 
 namespace Lazlo.ICS.Reference.Worker
