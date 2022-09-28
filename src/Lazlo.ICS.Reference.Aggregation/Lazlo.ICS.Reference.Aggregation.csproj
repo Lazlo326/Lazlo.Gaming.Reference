@@ -2,18 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Lazlo.Gaming.SDK.Events" Version="2.1.71-preview" />
     <PackageReference Include="Microsoft.ApplicationInsights" Version="2.21.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
     <PackageReference Include="ThreeTwoSix.SDK.Cryptography.Helpers" Version="4.5.87-preview" />
-    <PackageReference Include="ThreeTwoSix.SDK.DataStream" Version="4.5.87" />
-    <PackageReference Include="ThreeTwoSix.SDK.Messaging.Abstractions" Version="4.5.45" />
-    <PackageReference Include="ThreeTwoSix.SDK.Messaging.Sinks" Version="4.5.59" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lazlo.ICS.Reference.External\Lazlo.ICS.Reference.External.csproj" />
   </ItemGroup>
 
 </Project>

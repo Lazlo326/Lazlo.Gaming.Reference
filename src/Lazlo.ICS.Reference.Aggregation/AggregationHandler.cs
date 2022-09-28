@@ -70,7 +70,7 @@ public class AggregationHandler : IEventHandler
                 if (eventArgs.Data.Properties.Any(p => p.Key == "EventType"))
                 {
                     // all ICS events arrive as DataStreamEvent types available in the ThreeTwoSix.SDK.DataStream Nuget package
-                    DataStreamEvent? se = JsonConvert.DeserializeObject<DataStreamEvent>(eventArgs.Data.EventBody.ToString());
+                    DataStreamEvent se = JsonConvert.DeserializeObject<DataStreamEvent>(eventArgs.Data.EventBody.ToString());
 
                     using RSA rsa = RSA.Create(RSAParameters);
 
@@ -132,7 +132,7 @@ public class AggregationHandler : IEventHandler
     {
         try
         {
-            FinalizedPanel? panel = JsonConvert.DeserializeObject<FinalizedPanel>(json);
+            FinalizedPanel panel = JsonConvert.DeserializeObject<FinalizedPanel>(json);
 
             await EventSink.AddEventAsync(panel);
         }

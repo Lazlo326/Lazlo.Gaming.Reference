@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazlo.Reference.KeyGenerato
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazlo.ICS.Reference.Aggregation", "Lazlo.ICS.Reference.Aggregation\Lazlo.ICS.Reference.Aggregation.csproj", "{962EDF08-5304-4319-A9CE-98066EA0481E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazlo.ICS.Reference.External", "Lazlo.ICS.Reference.External\Lazlo.ICS.Reference.External.csproj", "{58558E57-167D-446B-8B5C-85528D3D8991}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{962EDF08-5304-4319-A9CE-98066EA0481E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{962EDF08-5304-4319-A9CE-98066EA0481E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{962EDF08-5304-4319-A9CE-98066EA0481E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58558E57-167D-446B-8B5C-85528D3D8991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58558E57-167D-446B-8B5C-85528D3D8991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58558E57-167D-446B-8B5C-85528D3D8991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58558E57-167D-446B-8B5C-85528D3D8991}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
